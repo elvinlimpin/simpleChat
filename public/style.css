@@ -1,0 +1,50 @@
+* {
+    font-family:  'Ubuntu Mono', monospace;
+    color: black
+}
+
+h1, h2, h3, h4, h5, h6, #username {
+    color: white;
+}
+
+.card, textarea {
+    background-color: #bcbcbc!important;
+    border-radius: 0!important;
+}
+
+textarea {
+    color: black!important;
+}
+
+::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: black;
+}
+
+::-ms-input-placeholder {
+    color: black;
+}
+
+body {
+    background-color: black;
+}
+
+.to-bottom-container {
+    position: relative;
+    height: 300px;
+    overflow-y: scroll;
+    
+
+    margin-bottom:1em;
+    margin-left:1em;
+}
+
+.to-bottom {
+    position: absolute;
+    height: auto;
+    bottom: 0;
+}

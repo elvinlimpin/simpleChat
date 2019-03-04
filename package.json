@@ -1,0 +1,23 @@
+{
+  "name": "seng513a3",
+  "version": "1.0.0",
+  "description": "chat app with websockets",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "firebase-admin": "^7.0.0",
+    "mongod": "^2.0.0",
+    "mongodb": "^3.1.13",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2"
+  }
+}
